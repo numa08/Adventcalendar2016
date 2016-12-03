@@ -3,6 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "24.0.3"
+    dataBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "net.numa08.adventcalendar2016"
         minSdkVersion 21
